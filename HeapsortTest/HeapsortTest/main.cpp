@@ -30,7 +30,7 @@ void adjustHeap(int data[],int size,int index)
 void heapsort(int data[],int size)
 {
 	int i;
-	for(i=(size-1)/2;i>=0;i--)
+	for(i=size/2-1;i>=0;i--)
 	{
 		adjustHeap(data,size,i);
 	}
